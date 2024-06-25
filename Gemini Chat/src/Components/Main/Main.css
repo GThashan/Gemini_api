@@ -1,0 +1,85 @@
+.main{
+    flex: 1;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+;
+    flex-direction: column;
+}
+.main .main-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main .main-head img{
+    border-radius: 50px;
+    width: 40px;
+}
+.main .main-head p{
+    font-size: 20px;
+    color: #585858;
+    font-weight: 400;
+}
+.main .main-body{
+    max-width: 900px;
+    margin: auto;
+}
+.main .main-body .body-top p{
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(210, 210, 210);
+}
+.main .main-body .body-top span{
+    background: -webkit-linear-gradient(80deg, rgb(254, 127, 238), rgb(243, 13, 13));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.main .body-bottom .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 30px;
+}
+.main .body-bottom .cards .card{
+    padding: 30px;
+    background-color: rgb(235, 234, 234);
+    cursor: pointer;
+    border-radius: 20px;
+    position: relative;
+    height: 200px;
+}
+.main .body-bottom .cards .card img{
+    position: absolute;
+    width: 30px;
+    bottom: 10px;
+    right: 20px;
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 50px;
+}
+.main .body-bottom .cards .card p{
+    text-align: justify;
+    font-weight: 300;
+}
+.main-bottom .input-feild{
+    background-color: rgb(235, 234, 234);
+    max-width: 900px;
+    margin: auto;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+}
+.main-bottom .input-feild img{
+    width: 20px;
+}
+.main-bottom .input-feild .input-img{
+    display: flex;
+    gap: 5px;
+}
+.main-bottom .input-feild input{
+     border: none;
+     background: transparent;
+     outline: none;
+     flex: 1;
+}
