@@ -3,7 +3,7 @@ import { createContext } from "react";
 
 export const context = createContext();
 
-const contextProvider = (props)=>{
+const ContextProvider = (props)=>{
 
 
     const contextValue = {
@@ -17,4 +17,4 @@ const contextProvider = (props)=>{
     )
 }
 
-export default contextProvider;
+export default ContextProvider;
